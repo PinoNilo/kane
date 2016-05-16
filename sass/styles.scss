@@ -1,0 +1,228 @@
+
+.bg-image{
+	background-image: url(../img/carousel-bg.jpg);
+	width:100%;
+	background-size:cover;
+	height:500px;
+}
+
+
+
+@mixin cuadrado-color ($color) {
+background-color: $color;
+width:150px;
+height:150px;
+display:inline-block;
+}
+
+.caja1{
+	@include cuadrado-color:(#69d2e7);
+
+}
+
+.caja2{
+	@include cuadrado-color:(#a7dbdb);
+
+}
+
+.caja3{
+	@include cuadrado-color:(#e0e4cc);
+
+}
+.caja4{
+	@include cuadrado-color:(#f38630);
+}
+
+.caja5{
+	@include cuadrado-color:(#fa6900);
+}
+
+.caja6{
+	@include cuadrado-color:(#e94c6f);
+}
+
+.caja7{
+	@include cuadrado-color:(#542733);
+}
+
+.caja8{
+	@include cuadrado-color:(#5a6a62);
+}
+
+.caja9{
+	@include cuadrado-color:(#c6d5cd);
+}
+
+.caja10{
+	@include cuadrado-color:(#fdf200);
+}
+
+.caja11{
+	@include cuadrado-color:(#db3340);
+}
+
+.caja12{
+	@include cuadrado-color:(#e8b71a);
+}
+
+.caja13{
+	@include cuadrado-color:(#f7eac8);
+}
+
+.caja14{
+	@include cuadrado-color:(#1fda9a);
+}
+
+.caja15{
+	@include cuadrado-color:(#28abe3);
+}
+
+.caja16{
+	@include cuadrado-color:(#588c73);
+}
+
+.caja17{
+	@include cuadrado-color:(#f2e394);
+}
+
+.caja18{
+	@include cuadrado-color:(#f2ae72);
+}
+
+.caja19{
+	@include cuadrado-color:(#d96459);
+}
+
+.caja20{
+	@include cuadrado-color:(#8c4646);
+}
+
+.caja21{
+	@include cuadrado-color:(#d0c91f);
+}
+
+.caja22{
+	@include cuadrado-color:(#85c4b9);
+}
+
+.caja23{
+	@include cuadrado-color:(#008bba);
+}
+
+.caja24{
+	@include cuadrado-color:(#df514c);
+}
+
+.caja25{
+	@include cuadrado-color:(#dc403b);
+}
+
+
+
+
+
+
+
+.background-gray{
+	background-color: #282D43;
+	color: white;
+	padding: 5% 0% 5% 0%;
+	h3{
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	p{
+		margin-bottom: 15px;
+	}
+	img{
+		max-width: 100%;
+	}
+	h4{
+		font-size: 15px;
+	}
+	.progress{
+		height: 10px;
+	}
+	h6{
+		text-align: center;
+		margin-bottom: 30px;
+	}
+}
+.bg-green{
+	background-color: $main-color;
+	text-align: center;
+	color: white;
+	padding: 5% 0% 5% 0%;
+	.container{
+		width: 90%;
+		h6{
+			margin-bottom: 40px;
+		}
+		.giro-360 {
+			padding: 60px;
+			hr{
+			width: 100%;
+			}
+		    &:hover{
+		    	background-color: darken($main-color, 20%);
+		    }
+			img {
+				width: 50%;
+			    -webkit-box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+			    -moz-box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+			    -webkit-transition: all 1s ease-out;
+			    -moz-transition: all 1s ease;
+			    -o-transition: all 1s ease;
+			  	&:hover {
+				    -webkit-transform: rotate(-360deg);
+				    -moz-transform: rotate(-360deg);
+				    -o-transform: rotate(-360deg);
+				}
+			}
+		}
+		button{
+			background-color: #4A4A4A;
+			&:hover{
+				color: $main-color;
+			}
+		}
+		.iconos{
+			.img-rounded{
+				display: inline-block;
+				background-color: white;
+				height:25px;
+				width: 25px;
+				margin: 5px;
+				padding-top: 4px;
+				i{
+					color: $main-color;
+					font-size: 15px;
+				}
+			}
+		}
+	}
+}
+.prices{
+	text-align: center;
+	border: 1px solid $main-color;
+	padding: 20px 0px 20px 0px;
+	&:hover{
+		margin-top: -40px;
+	}
+	p{
+		background-color: white;
+		color: black;
+	}
+	h5{
+		font-size: 15px;
+	}
+	button{
+			background-color: #4A4A4A;
+			&:hover{
+				color: white;
+				background-color: lighten(#4A4A4A,10%);
+			}
+		}
+}
+Status API Training Shop Blog About
+© 2016 GitHub, Inc. Terms Privacy Security Contact Help
